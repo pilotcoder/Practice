@@ -3,8 +3,10 @@ package org.example;
 public class Stringi {
     public static void main(String[] args) {
         String toReverse = new String("kotek");
+        String palindrome = new String("lot");
         String nowy = reverseString(toReverse);
         System.out.println(nowy);
+        System.out.println(isPalindrome(palindrome));
 
     }
     public static String reverseString(String toReverse){
@@ -15,6 +17,16 @@ public class Stringi {
 
         }
         return reversed;
+    }
+    public static boolean isPalindrome(String string){
+        boolean test = true;
+        for (int i = 0; i < (string.length()-1)/2; i++) {
+            if (string.charAt(i) != string.charAt(string.length()-1-i) ){
+                test = false;
+            }
+
+        }
+        return test;
     }
 
 
