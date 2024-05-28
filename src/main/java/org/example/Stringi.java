@@ -6,15 +6,8 @@ public class Stringi {
         String nowy = reverseString(toReverse);
         System.out.println(nowy);
 
-
-
-
-
-
-
-
-
-    }               public static String reverseString(String toReverse){
+    }
+    public static String reverseString(String toReverse){
         String reversed = "";
         for (int i = toReverse.length()-1; i >= 0; i--) {
             char temp = toReverse.charAt(i);
@@ -22,6 +15,8 @@ public class Stringi {
 
         }
         return reversed;
+
+
     }
 
 }
