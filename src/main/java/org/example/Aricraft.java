@@ -3,7 +3,7 @@ package org.example;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 
-public class Aricraft {
+public  class Aricraft {
     private  final Long id = 1L;
 
     private  String name;
@@ -41,4 +41,6 @@ public class Aricraft {
                 ", ints=" + Arrays.toString(ints) +
                 '}';
     }
+
+
 }
