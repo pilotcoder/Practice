@@ -5,7 +5,7 @@ public  class Dodawanie {
         System.out.println("testujemy blok statyczny");
     }
 
-    public static int dodaj(int a, int b){
-        return a+b;
+    public static void main(String[] args) {
+        Dodawanie dodawanie;
     }
 }
