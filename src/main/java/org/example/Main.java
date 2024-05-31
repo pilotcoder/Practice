@@ -1,13 +1,14 @@
 package org.example;
 
 public class Main {
-    private static String finalna = new String("wsad") ;
+    private static final String finalna = new String("wsad") ;
 
     public static void main(String[] args) {
 
         System.out.println("Hello world!");
         System.out.println(finalna.toString());
-        finalna = finalna + "qwerty";
+     //   finalna = finalna + "qwerty";
+      //  System.out.println(finalna.toString());
 
         Aricraft aricraft = new Aricraft("wilga");
         Aricraft aricraft1 = new Aricraft("Jak");
