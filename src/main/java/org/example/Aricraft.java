@@ -16,6 +16,9 @@ public  class Aricraft {
         this.ints[1] = 2;
 
     }
+    public void fly(){
+        System.out.println(name + " leci");
+    }
 
     public Long getId() {
         return id;
