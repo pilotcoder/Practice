@@ -9,7 +9,7 @@ public class Main {
         System.out.println(finalna.toString());
      //   finalna = finalna + "qwerty";
       //  System.out.println(finalna.toString());
-        Dodawanie dodawanie;
+        Dodawanie dodawanie = new Dodawanie();
 
         Aricraft aricraft = new Aricraft("wilga");
         Aricraft aricraft1 = new Aricraft("Jak");
