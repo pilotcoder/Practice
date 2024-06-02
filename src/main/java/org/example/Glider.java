@@ -1,8 +1,6 @@
 package org.example;
 
-import jdk.jfr.Label;
-
-public class Glider extends Aricraft {
+public class Glider extends Aircraft {
     public Glider(String name) {
         super(name);
 
@@ -11,7 +9,7 @@ public class Glider extends Aricraft {
     @Override
     public void fly() {
         super.fly();
-        System.out.print(" cicho");
+        System.out.println("  leci ale cicho");
     }
     //    @Override
 //     public void fly() {

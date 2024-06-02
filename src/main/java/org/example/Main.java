@@ -1,7 +1,9 @@
 package org.example;
 
+import java.util.Collection;
+
 public class Main {
-    private static final String finalna = new String("wsad") ;
+    private static final String finalna = new String("finalny obiekt");
 
     public static void main(String[] args) {
 
@@ -9,27 +11,37 @@ public class Main {
 
         System.out.println("Hello world!");
         System.out.println(finalna.toString());
-     //   finalna = finalna + "qwerty";
-      //  System.out.println(finalna.toString());
+        //   finalna = finalna + "qwerty";
+        //  System.out.println(finalna.toString());
         Dodawanie dodawanie = new Dodawanie();
 
-        Aricraft aricraft = new Aricraft("wilga");
-        Aricraft aricraft1 = new Aricraft("Jak");
+        Aircraft aircraft = new Aircraft("wilga");
+
+      //  aircraft.setType("pzl-104");
+        Aircraft aircraft1 = new Aircraft("wilga");
         Glider glider = new Glider("puchacz");
+        Aircraft aircraftBuilded = new Aircraft.AircraftBuilder().name("gawron").type("PZL-101").pasengers(4).id().build();
+        Aircraft aircraftBuilded2 = new Aircraft.AircraftBuilder()
+                .name("Antek")
+                .type("AN-2").pasengers(14)
+                .id()
+                .build();
 
-        System.out.println(aricraft);
-        System.out.println(aricraft1);
-        aricraft1.ints[1] = 4;
-        Aricraft aricraft2 = new Aricraft("cessna");
-
-        System.out.println(aricraft1);
-        System.out.println(aricraft);
-        System.out.println(aricraft2);
-        System.out.println(glider);
-        aricraft1.fly();
+        System.out.println(aircraft.equals(aircraft1));
+        System.out.println(aircraft);
+        System.out.println(aircraft1);
+        aircraft1.ints[1] = 4;
+        System.out.println(aircraft1 + "Zmieniona wartość w tabeli finalnej");
+        aircraft1.fly();
         glider.fly();
+        System.out.println(".");
+        System.out.println(aircraftBuilded);
+        System.out.println(aircraftBuilded2);
 
+        Object object = new Object();
+        object.getClass();
 
+        Collection collection =
 
 
 
