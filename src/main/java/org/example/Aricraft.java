@@ -8,6 +8,10 @@ public  class Aricraft {
 
     private  String name;
 
+    private String type;
+
+    private int pasengers;
+
     final int[] ints = new int[2];
 
     public Aricraft(String name) {
@@ -16,6 +20,13 @@ public  class Aricraft {
         this.ints[1] = 2;
 
     }
+
+    public Aricraft(String name, String type, int pasengers) {
+        this.name = name;
+        this.type = type;
+        this.pasengers = pasengers;
+    }
+
     public void fly(){
         System.out.println(name + " leci");
     }
@@ -41,9 +52,9 @@ public  class Aricraft {
         return "Aricraft{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", pasengers=" + pasengers +
                 ", ints=" + Arrays.toString(ints) +
                 '}';
     }
-
-
 }
