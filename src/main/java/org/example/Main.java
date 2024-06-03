@@ -41,7 +41,10 @@ public class Main {
         Object object = new Object();
         object.getClass();
 
-        Collection collection =
+        String link1 = new String("https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmY0Y2M1NWQtZmM3Ny00YTc2LWE2YTMtN2FjNDdjNWJlZTYw%40thread.v2/0?context=%7b%22Tid%22%3a%225b973f99-77df-4beb-b27d-aa0c70b8482c%22%2c%22Oid%22%3a%22a328bc20-0b20-4278-8d17-3f9efd91d163%22%7d");
+        String link2 = new String("https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmY0Y2M1NWQtZmM3Ny00YTc2LWE2YTMtN2FjNDdjNWJlZTYw%40thread.v2/0?context=%7b%22Tid%22%3a%225b973f99-77df-4beb-b27d-aa0c70b8482c%22%2c%22Oid%22%3a%22a328bc20-0b20-4278-8d17-3f9efd91d163%22%7d");
+
+        System.out.println(link1.equals(link2));
 
 
 
