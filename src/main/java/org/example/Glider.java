@@ -6,6 +6,10 @@ public class Glider extends Aircraft {
 
     }
 
+//    public  Aircraft(String name){
+//        super(name);
+//    }
+
     @Override
     public void fly() {
         super.fly();
