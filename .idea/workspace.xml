@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8171db0-9b6c-4be5-b0f9-328b2bda7f09" name="Changes" comment="probiren">
+    <list default="true" id="c8171db0-9b6c-4be5-b0f9-328b2bda7f09" name="Changes" comment="equals">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717324337350</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="equals">
+      <created>1717416690194</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717416690194</updated>
+    </task>
+    <task id="LOCAL-00011" summary="equals">
+      <created>1717697434478</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717697434478</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +143,7 @@
     <MESSAGE value="String reverse" />
     <MESSAGE value="static block" />
     <MESSAGE value="probiren" />
-    <option name="LAST_COMMIT_MESSAGE" value="probiren" />
+    <MESSAGE value="equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals" />
   </component>
 </project>
