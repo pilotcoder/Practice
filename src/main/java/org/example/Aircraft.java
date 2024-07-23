@@ -128,9 +128,5 @@ public  class Aircraft {
             return new Aircraft(this);
         }
 
-
-
-
-
     }
 }
