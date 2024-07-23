@@ -16,7 +16,7 @@ public class Glider extends Aircraft {
         super.fly();
         System.out.println("  leci ale cicho");
     }
-    //    @Override
+//        @Override
 //     public void fly() {
 //        super();
 //        System.out.println(getName() + " leci cichutko");
