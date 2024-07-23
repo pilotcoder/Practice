@@ -53,10 +53,8 @@ public  class Aircraft {
         this.type = type;
         this.pasengers = pasengers;
     }
-
 //    public Aircraft() {
 //    }
-
     public void fly(){
         System.out.println(name + " leci");
     }
