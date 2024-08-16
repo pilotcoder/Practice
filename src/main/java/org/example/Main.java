@@ -27,9 +27,17 @@ public class Main {
                 .id()
                 .build();
 
+        Aircraft aircraftBulided3 = new Aircraft.AircraftBuilder()
+                .name("junior")
+                        .type("szd51-1")
+                                .id()
+                                        .build();
+
+
         System.out.println(aircraft.equals(aircraft1));
         System.out.println(aircraft);
         System.out.println(aircraft1);
+        System.out.println(aircraftBulided3);
         aircraft1.ints[1] = 4;
         System.out.println(aircraft1 + "Zmieniona wartość w tabeli finalnej");
         aircraft1.fly();

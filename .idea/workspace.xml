@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8171db0-9b6c-4be5-b0f9-328b2bda7f09" name="Changes" comment="glider">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c8171db0-9b6c-4be5-b0f9-328b2bda7f09" name="Changes" comment="equals" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1721721178003</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="equals">
+      <created>1722879520515</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1722879520515</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,9 +183,9 @@
     <MESSAGE value="String reverse" />
     <MESSAGE value="static block" />
     <MESSAGE value="probiren" />
-    <MESSAGE value="equals" />
     <MESSAGE value="Aircraft builder" />
     <MESSAGE value="glider" />
-    <option name="LAST_COMMIT_MESSAGE" value="glider" />
+    <MESSAGE value="equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="equals" />
   </component>
 </project>
