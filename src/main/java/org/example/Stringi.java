@@ -7,7 +7,7 @@ public class Stringi {
         String nowy = reverseString(toReverse);
         System.out.println(nowy);
         System.out.println(isPalindrome(palindrome));
-
+//        ------
     }
     public static String reverseString(String toReverse){
         String reversed = "";
