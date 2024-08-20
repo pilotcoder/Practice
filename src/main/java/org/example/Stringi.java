@@ -18,7 +18,7 @@ public class Stringi {
         }
         return reversed;
     }
-//    sprawdzenie palindromu
+//    sprawdzenie palindromu....
     public static boolean isPalindrome(String string){
         boolean test = true;
         for (int i = 0; i < (string.length()-1)/2; i++) {
