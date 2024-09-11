@@ -10,7 +10,6 @@ public class Glider extends Aircraft {
 //        super(name);
 //        return ;
 //    }
-
     @Override
     public void fly() {
         super.fly();
