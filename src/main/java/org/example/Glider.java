@@ -20,4 +20,6 @@ public class Glider extends Aircraft {
 //        super();
 //        System.out.println(getName() + " leci cichutko");
 //    }
+
+
 }
